@@ -1,0 +1,122 @@
+# ESP32 / Arduino / PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+.clang_complete
+.gcc-flags.json
+lib/readme.txt
+*.bin
+*.hex
+*.elf
+*.map
+
+# Arduino IDE
+*.ino.cpp
+*.ino.with_bootloader.bin
+*.ino.bootloader.bin
+*.ino.partitions.bin
+
+# Build directories
+build/
+dist/
+*.o
+*.a
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Arduino libraries (if managed by IDE)
+libraries/
+
+# Certificates & Keys (CRITICAL - never commit these!)
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+certificates/
+certs/
+private/
+
+# AWS credentials and configs
+.aws/credentials
+.aws/config
+*.env
+.env.local
+.env.*.local
+
+# Python (if using AWS CLI or scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Node.js (if using AWS SDK)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# JetBrains IDEs
+# Uncomment below if you don't want to commit IDE settings
+.idea/
+*.iml
+
+# Other IDEs
+*.sublime-project
+*.sublime-workspace
+
+# Documentation build
+docs/_build/
+site/
+
+# Test coverage
+coverage/
+*.coverage
+.coverage.*
+htmlcov/
+
+# Hardware design files (large binaries)
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-cache.lib
+*-rescue.lib
+fp-info-cache
+
+# Secrets and config (be explicit)
+secrets.h
+config.h
+credentials.json
+aws-config.json
+
+# Keep empty directories
+!.gitkeep
